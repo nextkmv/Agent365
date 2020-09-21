@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="70afb1b5-08bc-431d-b27f-a4841b6873ce" name="nextkmv">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
