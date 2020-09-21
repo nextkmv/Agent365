@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.its_365.agent365">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_ag"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".tools.ApplicationContextProvider">
+        <activity android:name=".activitys.Splash"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activitys.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activitys.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activitys.OrderDetail"
+            android:label="@string/title_activity_order_detail"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.OrderHeader"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.SelectDialog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.About"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.SelectGoods"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.OrderLine"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.ClientInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.SearchebleSelectDialog"
+            android:screenOrientation="portrait"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="agent365.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

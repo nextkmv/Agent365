@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4D7FC3</color>
+    <color name="colorPrimaryDark">#4d7fc3</color>
+    <color name="colorAccent">#00b3f2</color>
+    <color name="colorBlackItem">#90caf9</color>
+    <color name="colorAccentGray">#e0e0e0</color>
+    <color name="buttonDarkText">#787878</color>
+    <color name="colorTextLight">#ffffff</color>
+    <color name="colorTextDark">#212121</color>
+    <color name="colorTextDark2">#757575</color>
+    <color name="colorTextDark3">#BDBDBD</color>
+    <color name="cardview_light_background">#fdf4f7</color>
+    <color name="cardview_light_cyan_background">#757575</color>
+    <color name="color_swipe_action">#FFA500</color>
+
+    <color name="color_order_state_new">#FFA500</color>
+    <color name="color_order_state_post">#4dc391</color>
+    <color name="color_order_state_proceed">#BDBDBD</color>
+    <color name="color_order_state_canceled">#c3564d</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_filter"
+        android:enabled="true"
+        android:icon="@drawable/ic_iconmonstr_filter_3"
+        android:title="@string/order_list_filter_title"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/item_filter_post_all"
+        android:enabled="true"
+        android:icon="@drawable/ic_iconmonstr_upload_18"
+        android:title="@string/order_list_filter_title"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+</menu>

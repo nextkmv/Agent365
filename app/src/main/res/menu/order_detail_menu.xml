@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/save"
+        android:enabled="true"
+        android:icon="@drawable/ic_iconmonstr_save"
+        android:title="@string/menu_item_name_save"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/send"
+        android:enabled="true"
+        android:icon="@drawable/ic_iconmonstr_upload_18"
+        android:title="@string/menu_item_name_send"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+
+
+</menu>
