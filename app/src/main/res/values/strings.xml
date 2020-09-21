@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Agent365</string>
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name_placeholder">Dale Carnegie</string>
+    <string name="company_name_placeholder">Компания ITS-365.RU</string>
+    <string name="title_activity_login">Подключение к серверу</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Электронная почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_server">Сервер</string>
+    <string name="prompt_name">Пользователь</string>
+    <string name="prompt_uid">Идентификатор агента</string>
+    <string name="action_sign_in">Подключиться</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_progress_dialog">ProgressDialog</string>
+    <string name="buttonOKText">OK</string>
+    <string name="buttonCancelText">Отмена</string>
+
+
+    <!-- Order -->
+    <string name="order_list_filter_title">Фильтры</string>
+    <string name="order_list_post_all_title">Выггрузить все</string>
+
+    <!--Заголовки сообщений об ошибках-->
+    <string name="titles_slogan">Рабочее место мобильного сотрудника</string>
+    <string name="titles_about">О программе</string>
+    <string name="titles_settings">Настройки</string>
+    <string name="titles_customers">Покупатели</string>
+    <string name="titles_orders">Заказы</string>
+
+
+    <string name="ErrProtocolException">Ошибка протокола обмена</string>
+    <string name="title_activity_order_detail">Новый заказ</string>
+    <string name="forms_field_name_delivery_date">Дата доставки</string>
+    <string name="forms_field_name_comment">Комментарий</string>
+    <string name="menu_item_name_save">Сохранить</string>
+    <string name="menu_item_name_send">Отправить</string>
+    <string name="menu_item_name_delete">Удалить</string>
+
+    <string name="order_state_new">Новый</string>
+    <string name="order_state_post">Отправлен</string>
+    <string name="order_state_processed">Обработан</string>
+    <string name="order_state_canceled">Отменен</string>
+
+    <string name="select_dialog_filter_is_group_view_caption">Вид \"по группам\"</string>
+    <string name="select_dialog_filter_sort_by_field_caption">Сортировать по</string>
+    <string name="select_dialog_filter_is_stock_only">Только товары в наличии</string>
+    <string name="empty_string" />
+
+
+    <string name="alert_title" >Уведомление</string>
+    <string name="alert_message_update_avalible" >Есть доступные обновления. Желаете загрузить их?</string>
+
+    <string-array name="select_dialog_filter_sort_mode">
+        <item>1. По Наименованию</item>
+        <item>2. По Цене</item>
+        <item>3. По Остаткам</item>
+    </string-array>
+
+
+</resources>

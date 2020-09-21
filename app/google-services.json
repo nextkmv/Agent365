@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "755795056399",
+    "firebase_url": "https://agent365-8ae1d.firebaseio.com",
+    "project_id": "agent365-8ae1d",
+    "storage_bucket": "agent365-8ae1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755795056399:android:4c673df4d890de53",
+        "android_client_info": {
+          "package_name": "ru.its_365.agent365"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755795056399-issucjch48qhine2lbjsusqo41njvvqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeglKvYAO3doDFujPNCZrVavvV-cywN5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
